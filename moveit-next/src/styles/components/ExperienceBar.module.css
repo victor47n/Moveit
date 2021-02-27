@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.experienceBar spna {
+.experienceBar span {
     font-size: 1rem;
 }
 
@@ -11,7 +11,7 @@
     flex: 1;
     height: 4px;
     border-radius: 4px;
-    background: var(--gray);
+    background: var(--gray-line);
     margin: 0 1.5rem;
     position: relative;
 }
