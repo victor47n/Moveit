@@ -15,6 +15,10 @@
     color: var(--title);
 }
 
+.profileContainer div {
+    margin-left: 1.5rem;
+}
+
 .profileContainer div p {
     font-size: 1rem;
     margin-top: 0.5rem;
