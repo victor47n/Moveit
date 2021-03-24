@@ -6,8 +6,7 @@
   <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#closed_book-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#man-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#man-autor">Autor</a>
 </p>
 
 ## :page_facing_up: Descrição
@@ -51,8 +50,3 @@ Feito com ❤️ por Victor Hugo :wave::wave: Entre em contato!🚀
 <a href="https://www.linkedin.com/in/victor47n/">
   <img alt="Linkedin" src="https://img.shields.io/badge/-Victor%20Hugo-9871F5?label=Linkedin&logo=linkedin&style=flat-square">
 </a>
-
-
-## :memo: Licença
-
-This project is [MIT](./LICENSE.txt) licensed.
