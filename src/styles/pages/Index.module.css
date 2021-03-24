@@ -1,0 +1,80 @@
+.indexContainer {
+    background: var(--blue);
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.indexContainer section {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+}
+
+.imageBox {
+    margin: auto 0 auto -4.25rem;
+}
+
+.authenticationBox {
+    margin: auto;
+    flex: 1;
+    display: grid;
+    grid-template-rows: 10fr 5fr 5fr 5fr;
+}
+
+.authenticationBox img {}
+
+.authenticationBox p {
+    color: var(--white);
+    font-size: 2.25rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+
+.authenticationBox div {
+    flex: 1;
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    max-width: 318px;
+}
+
+.authenticationBox div img {}
+
+.authenticationBox div span {
+    color: var(--text-highlight);
+}
+
+.authenticationBox div input {
+    width: 340px;
+    border: 0px;
+    background: linear-gradient(90deg, var(--blue-dark) 0%, rgba(73, 83, 184, 0.2) 100%);
+    border-radius: 5px 0px 0px 5px;
+    padding: 23px 30px;
+}
+
+.authenticationBox div input::placeholder {
+    color: var(--text-highlight);
+}
+
+.authenticationBox div input::-moz-placeholder {
+    color: var(--text-highlight);
+}
+
+.authenticationBox div input::-webkit-input-placeholder {
+    color: var(--text-highlight);
+}
+
+.authenticationBox div button {
+    background: var(--blue-dark);
+    border-radius: 0px 5px 5px 0px;
+    padding: 1.75rem;
+    border: 0px;
+}
+
+.authenticationBox div button:hover {
+    filter: brightness(0.9);
+}
