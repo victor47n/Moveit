@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
-import { CompletedChanllenges } from '../components/CompletedChallenges';
+import { CompletedChallenges } from '../components/CompletedChallenges';
 import { Countdown } from '../components/Countdown';
 import { ExperienceBar } from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
@@ -34,7 +34,7 @@ export default function Home(props: HomeProps) {
           <section>
             <div>
               <Profile />
-              <CompletedChanllenges />
+              <CompletedChallenges />
               <Countdown />
             </div>
             <div>
